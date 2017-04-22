@@ -1,7 +1,7 @@
 {
-  "name": "omnifood",
+  "name": "hightech",
   "version": "1.0.0",
-  "description": "My first project",
+  "description": "Refactoring www.high-techindia.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dontaward/Omnifood.git"
+    "url": "git+https://github.com/dontaward/Hightech.git"
   },
   "author": "Jitendra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dontaward/Omnifood/issues"
+    "url": "https://github.com/dontaward/Hightech/issues"
   },
-  "homepage": "https://github.com/dontaward/Omnifood#readme",
+  "homepage": "https://github.com/dontaward/Hightech#readme",
   "devDependencies": {
     "httpster": "^1.0.3"
   }
