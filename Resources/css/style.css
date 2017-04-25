@@ -346,7 +346,7 @@ header {
 }
 
 .meal-photo img {
-	opacity: 0.7;
+	/*opacity: 0.7;*/
 	width: 100%;
 	height: auto;
 	-webkit-transform: scale(1.15);
@@ -358,7 +358,7 @@ header {
 }
 
 .meal-photo img:hover {
-	opacity: 1;
+	opacity: 0.7;
 	-webkit-transform: scale(1.03);
 	transform: scale(1.03);
 }
@@ -369,7 +369,9 @@ header {
 	left: 0; 
 	width: 100%; 
 	color: white; 
-	font: 22px Helvetica, Sans-Serif;
+	font-family: 'Lato', 'Arial', 'sans-sarif';
+	font-size: 22px;
+	color: #FFF;
 	letter-spacing: -1px;  
 	background: rgb(0, 0, 0); /* fallback color */
 	background: rgba(0, 0, 0, 0.3);
