@@ -72,7 +72,7 @@ $(document).ready(function() {
 	map.addMarker({
 	  lat: 17.766809,
 	  lng: 83.2400933,
-	  title: 'South Dakota',
+	  title: 'Visakhapatnam',
 	  infoWindow: {
 		content: '<p>Our location</p>'
 		}

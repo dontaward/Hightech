@@ -87,8 +87,8 @@ h2:after {
 
 .long-copy {
 	line-height: 145%;
-	width: 70%;
-	margin-left: 15%;
+	width: 100%;
+	text-align: justify;
 }
 
 .box p{
@@ -204,8 +204,8 @@ input[type=submit]:active {
 /* ---------------------------------------- */
 
 header {
-	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/high3.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/high3.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -218,7 +218,7 @@ header {
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .logo {
@@ -454,8 +454,8 @@ header {
 /* ---------------------------------------- */
 
 .section-testimonials {
-	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/high4.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/high4.jpg);
 	background-size: cover;
 	color: #FFF;
 	background-attachment: fixed;
