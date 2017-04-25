@@ -64,17 +64,17 @@ $(document).ready(function() {
 
 	var map = new GMaps({
 	  div: '.map',
-	  lat: 44.1946806,
-	  lng: -102.04,
+	  lat: 17.766809,
+	  lng: 83.2400933,
 	  zoom: 7
 	});
 
 	map.addMarker({
-		lat: 44.1946806,
-	  	lng: -102.490828,
-		title: 'South Dakota',
-		infoWindow: {
-  		content: '<p>Our location</p>'
+	  lat: 17.766809,
+	  lng: 83.2400933,
+	  title: 'South Dakota',
+	  infoWindow: {
+		content: '<p>Our location</p>'
 		}
 	});
 
