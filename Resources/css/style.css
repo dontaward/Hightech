@@ -145,6 +145,21 @@ a:active {
 	border-bottom: 1ps solid transparent;
 }
 
+.twitter-link a:link,
+.twitter-link a:visited {
+	color: #FFF;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #e67e22;
+	-webkit-transition: border-bottom 0.2s, color 0.2s;
+	transition: border-bottom 0.2s, color 0.2s;
+}
+
+.twitter-link a:hover,
+.twitter-link a:active {
+	color: #e67e22;
+}
+
 .home-link {
 	cursor: pointer;
 }
@@ -446,7 +461,11 @@ header {
 /* ---------------------------------------- */
 
 .section-cities {
-	background-color: #F4F4F4;
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/high6.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/high6.jpg);
+	background-size: cover;
+	color: #FFF;
+	background-attachment: fixed;
 }
 
 .box img {
@@ -580,6 +599,7 @@ textarea {
 	padding: 7px;
 	border-radius: 3px;
 	border: 1px solid #CCC;
+	resize: none;
 }
 
 textarea {
